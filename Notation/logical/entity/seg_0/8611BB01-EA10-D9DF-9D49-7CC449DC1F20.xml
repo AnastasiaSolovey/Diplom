@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8611BB01-EA10-D9DF-9D49-7CC449DC1F20" name="condition">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:41:17 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_condition" id="A6E1AF82-76AD-756B-8215-13A91A346997">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:41:31 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="condition" id="228664F1-5E09-177E-C448-A1861936470D">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:41:48 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94F66D83-E8B5-F8C9-9D91-AB1758554A43" name="condition PK">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:41:46 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6E1AF82-76AD-756B-8215-13A91A346997</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

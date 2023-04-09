@@ -1,0 +1,23 @@
+INSERT INTO users (username, password, salt) VALUES ('johndoe', SHA2(CONCAT('secret', generate_salt(16)), 256), generate_salt(16));
+DELIMITER //
+
+CREATE FUNCTION generate_salt(length INT)
+RETURNS VARCHAR(255)
+BEGIN
+DECLARE chars VARCHAR(62) DEFAULT 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+DECLARE salt VARCHAR(255) DEFAULT '';
+
+WHILE length > 0 DO
+SET salt = CONCAT(salt, SUBSTR(chars, FLOOR(RAND() * 62) + 1, 1));
+SET length = length - 1;
+END WHILE;
+
+RETURN salt;
+END //
+
+DELIMITER ;
+В MySQL можно использовать функцию RAND() для генерации случайных чисел, которые можно использовать в качестве "соли" для хеширования паролей. Например, можно создать функцию, которая будет генерировать случайную строку фиксированной длины:
+Эта функция генерирует случайную строку из символов латинского алфавита и цифр заданной длины. Вы можете изменить список символов в строке chars, чтобы включить другие символы.
+
+Затем вы можете использовать эту функцию для генерации "соли" при создании новых пользователей:
+Этот код создаст нового пользователя с именем johndoe, хешированным паролем и "солью", сгенерированными из функции generate_salt(). Обратите внимание, что мы добавляем "соль" к паролю перед его хешированием, используя функцию CONCAT().

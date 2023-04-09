@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF2369BD-BF79-9FCA-A276-7FEC1992E471" name="role">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:56:44 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_role" id="97802C16-0C17-6698-7278-FB7449DDF035">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:01:06 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="role" id="E3004A3C-8DCB-8DBB-0EF4-F5A49D15A2C5">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:01:19 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDE05033-48DD-CFD4-D86C-450BF8BF192B" name="role PK">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:01:16 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97802C16-0C17-6698-7278-FB7449DDF035</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

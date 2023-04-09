@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="239C3776-F899-8802-F1D0-EE295929EC4D" name="measuring_instrument">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:46:09 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_measuring_instrument" id="69EE814A-608E-F9CC-A456-28927719562B">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:46:17 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_name_instrument" id="999DD1F3-0E8D-4B15-B37A-DEEE35E83477">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:47:23 UTC</createdTime>
+<generatorID>6C24E95C-FE3B-AEE2-0F50-73FDFFDEB9A9</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>337B9627-E271-5098-6537-31C8F0A1561C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="A83282C6-5325-8235-818B-42754D48DEFD">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:46:31 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacturer" id="8E1E0888-DBD4-24E2-DA98-1E0D7BB79E7B">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:46:13 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="measuring_range" id="8F33A0EA-CB9C-ECBF-082F-9C1535638A1A">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:48:30 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inventory_number" id="539F45F5-D26A-B59C-F704-42DA681D9A84">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:49:00 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="factory_number" id="A4BECE1E-4F93-37A8-7128-D9A1E563FD74">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:49:31 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etalon" id="9C57C93C-33A6-8C13-5A8A-5E04F2A75194">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:50:21 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_condition" id="87345A20-EAA9-FF9C-0DD7-9A22E8AB7FC3">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:53:26 UTC</createdTime>
+<generatorID>B9D62B54-2B55-4893-9C87-B055F522A791</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>A6E1AF82-76AD-756B-8215-13A91A346997</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipment" id="E3FED959-D9AD-9CF3-2BAF-7FA18A3F7A91">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:51:17 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="98D0C73D-3495-7C15-123C-6BF7721ED05F">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:52:29 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_belong_to" id="DD16FFE4-6FBD-0FF5-3DC8-4609E35E673B">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 12:53:46 UTC</createdTime>
+<generatorID>5CE0EA45-AFFD-27B2-B343-127100C98295</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>160D801C-B4D7-6174-EFCD-3E3FE2B50E10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A074B2F8-788F-C70D-412B-52176108E35D" name="measuring_instrument PK">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-08 09:46:28 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69EE814A-608E-F9CC-A456-28927719562B</attributeRef>
+<attributeRef>999DD1F3-0E8D-4B15-B37A-DEEE35E83477</attributeRef>
+<attributeRef>87345A20-EAA9-FF9C-0DD7-9A22E8AB7FC3</attributeRef>
+<attributeRef>DD16FFE4-6FBD-0FF5-3DC8-4609E35E673B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

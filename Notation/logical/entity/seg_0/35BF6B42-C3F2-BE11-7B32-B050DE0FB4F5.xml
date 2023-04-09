@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35BF6B42-C3F2-BE11-7B32-B050DE0FB4F5" name="employee_data">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:02:11 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_employee_data" id="EA63EF3E-F8FB-F261-90A2-2865306FACB1">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:02:23 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_employee" id="BE9A1595-5F2E-7556-A439-9DFD2C86B675">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:07:00 UTC</createdTime>
+<generatorID>C1E03AD4-F421-5F25-4BCE-7F5E603F6C3C</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>153DFFB9-F16A-22ED-D35C-9496BEB81D21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="62476A1B-7EFE-A2DB-0BE6-D45BFF46F6A1">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:02:42 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password_hash" id="EBB1BCBC-C5C8-F57B-3959-CDBF06BB898E">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:03:24 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salt" id="5CA39EDE-33A7-F8E5-C32F-62B8238D0AF5">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:03:51 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_role" id="F0AA8974-57F0-021A-3C21-5F3C74D9B876">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:07:30 UTC</createdTime>
+<generatorID>A7D620E8-C84E-12D2-09AE-60F60F392920</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>97802C16-0C17-6698-7278-FB7449DDF035</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_active" id="FEE0D10B-C7E9-878F-609C-A07C0BB00AB4">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:04:30 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D18FBE64-663C-0A69-ACA8-321850DF71DA" name="employee_data PK">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:02:40 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA63EF3E-F8FB-F261-90A2-2865306FACB1</attributeRef>
+<attributeRef>F0AA8974-57F0-021A-3C21-5F3C74D9B876</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

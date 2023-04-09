@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EB1CF8D-902A-21E1-B5BC-E3344B272159" name="schedule">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:21:25 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_schedule" id="2F70F94E-BF02-A43D-AC52-8B0F9E785274">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:21:31 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequency" id="D55F134B-8DE5-007D-BA89-A154B2CBC9DD">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:22:02 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_venue" id="AC26CF15-A9CC-9998-909B-E466D2C1219D">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:26:34 UTC</createdTime>
+<generatorID>0E563067-9F32-0839-C491-63CFA9FF5685</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>8C8981A8-77EF-33EE-FE11-4DAE27560744</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="FD47C0B9-94C2-CE71-7970-9FD7E8A84F28">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:23:36 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_venue1" id="0532CDCB-BD76-4225-22BC-EB7DE8AE334E">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:26:57 UTC</createdTime>
+<generatorID>68DB5D08-9994-DF24-7FB7-B15905953954</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>8C8981A8-77EF-33EE-FE11-4DAE27560744</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_measuring_instrument" id="729DD6EC-A6AD-B6ED-B5DF-AD9FD2B91FEE">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:27:57 UTC</createdTime>
+<generatorID>A98485C0-E259-2E33-E4AA-E396770B59E3</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>69EE814A-608E-F9CC-A456-28927719562B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_name_instrument" id="F55D2F69-80CF-98E4-8481-9C6D266396DB">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:27:57 UTC</createdTime>
+<generatorID>A98485C0-E259-2E33-E4AA-E396770B59E3</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>999DD1F3-0E8D-4B15-B37A-DEEE35E83477</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_condition" id="8C529E5F-9EB0-694C-46DD-B792AF05EC3C">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:27:57 UTC</createdTime>
+<generatorID>A98485C0-E259-2E33-E4AA-E396770B59E3</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>87345A20-EAA9-FF9C-0DD7-9A22E8AB7FC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_belong_to" id="9B2276A1-EC93-4890-EC95-9D825AAFFC4D">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:27:57 UTC</createdTime>
+<generatorID>A98485C0-E259-2E33-E4AA-E396770B59E3</generatorID>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<referedAttribute>DD16FFE4-6FBD-0FF5-3DC8-4609E35E673B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4A79112-2B44-3636-C329-674C2C6F243C" name="schedule PK">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:21:58 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F70F94E-BF02-A43D-AC52-8B0F9E785274</attributeRef>
+<attributeRef>AC26CF15-A9CC-9998-909B-E466D2C1219D</attributeRef>
+<attributeRef>0532CDCB-BD76-4225-22BC-EB7DE8AE334E</attributeRef>
+<attributeRef>729DD6EC-A6AD-B6ED-B5DF-AD9FD2B91FEE</attributeRef>
+<attributeRef>F55D2F69-80CF-98E4-8481-9C6D266396DB</attributeRef>
+<attributeRef>8C529E5F-9EB0-694C-46DD-B792AF05EC3C</attributeRef>
+<attributeRef>9B2276A1-EC93-4890-EC95-9D825AAFFC4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

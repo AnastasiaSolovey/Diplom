@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="old_venue" directorySegmentName="seg_0" id="0E563067-9F32-0839-C491-63CFA9FF5685">
+<createdBy>AnastasiaSolovey</createdBy>
+<createdTime>2023-04-09 13:26:34 UTC</createdTime>
+<ownerDesignName>Notation</ownerDesignName>
+<engineerTo>
+<item key="62EBAAD7-2050-57CB-5BC5-20775AC0D693" value="true"/>
+</engineerTo>
+<sourcePk>33A84593-7FB1-888E-079F-22C114378BB4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD4D7AE3-ADD2-B7BC-2887-E89FEB435858</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB1CF8D-902A-21E1-B5BC-E3344B272159</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
